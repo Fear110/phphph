@@ -1,0 +1,1327 @@
+@font-face {
+  font-family: "Monument Extended";
+  src: url(../fonts/PPMonumentExtended-Regular.otf);
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/Gilroy-Regular.ttf);
+}
+@font-face {
+  font-family: "Gilroy SemiBold";
+  src: url(../fonts/Gilroy-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(../fonts/Gilroy-Medium.ttf);
+}
+
+html {
+  font-size: 62.5%;
+}
+@media (max-width: 2560px) {
+  html {
+    font-size: 62.5%;
+  }
+
+}
+@media (max-width: 1900px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .righ-content-course {
+    height: fit-content !important;
+  }
+}
+@media (max-width: 1500px) {
+  .main-ellipse {
+    width: 70% !important;
+  }
+}
+@media (max-width: 1230px) {
+  .main-ellipse {
+    width: 78% !important;
+  }
+}
+@media (max-width: 1043px) {
+  .righ-content-course {
+    height: 68rem !important;
+  }
+  .button-withdiscount .course-price {
+    margin-left: 3rem !important;
+  }
+  .main-ellipse {
+    width: 89% !important;
+  }
+  .righ-content-course {
+    height: fit-content !important;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  .main-content-course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0px !important;
+  }
+  .main-content-course h4 {
+    text-align: left;
+  }
+  .sixth-page-parent {
+    margin-top: 1rem !important;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .left-content-sixthpage {
+    align-self: center;
+  }
+  .righ-content-course {
+    height: fit-content !important;
+    margin: 0px !important;
+    width: 74% !important;
+  }
+  .left-content-course p {
+    text-align: left !important;
+  }
+  .left-content-course {
+    margin: 0 !important;
+  }
+  .button-withdiscount .course-price {
+    margin-left: 15rem !important;
+  }
+  .main-ellipse {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .row-ellipse {
+    max-width: 45.5rem !important;
+    margin: 0 auto !important;
+  }
+  .main-ellipse P {
+    max-width: 40.5rem !important;
+  }
+  .row-ellipse {
+    max-width: 47.5rem !important;
+  }
+  .main-ellipse P {
+    max-width: 42.5rem !important;
+  }
+  .fixed-menu {
+    width: 98% !important;
+    padding: 2rem 3rem !important;
+  }
+
+  .fixed-menu a {
+    padding: 3% !important;
+  }
+  .second-Page .course-specs .specs-left p {
+    padding: 3.5rem 0rem 6.5rem 0rem !important;
+    text-align: center !important;
+  }
+  .second-Page .course-specs .specs-right p {
+    padding: 3.5rem 0rem 6.5rem 0rem !important;
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 550px) {
+  html {
+    font-size: 50%;
+  }
+  .main-content-course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0px !important;
+  }
+  .main-content-course h4 {
+    text-align: left;
+  }
+  .sixth-page-parent {
+    margin-top: 1rem !important;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .left-content-sixthpage {
+    align-self: center;
+  }
+  .righ-content-course {
+    height: fit-content !important;
+    margin: 0px !important;
+    width: 74% !important;
+  }
+  .left-content-course p {
+    text-align: left !important;
+  }
+  .left-content-course {
+    margin: 0 !important;
+  }
+  .button-withdiscount .course-price {
+    margin-left: 15rem !important;
+  }
+  .main-ellipse {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .row-ellipse {
+    max-width: 47.5rem !important;
+  }
+  .main-ellipse P {
+    max-width: 42.5rem !important;
+  }
+  .fixed-menu {
+    width: 98% !important;
+    padding: 2rem 0rem !important;
+  }
+
+  .fixed-menu a {
+    padding: 1.5rem !important;
+  }
+  .second-Page .course-specs .specs-left p {
+    padding: 3.5rem 0rem 6.5rem 0rem !important;
+    text-align: center !important;
+  }
+  .second-Page .course-specs .specs-right p {
+    padding: 3.5rem 0rem 6.5rem 0rem !important;
+    text-align: center !important;
+  }
+  .second-Page img {
+    width: 35.5rem !important;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 35%;
+  }
+  .main-content-course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0px !important;
+  }
+  .main-content-course h4 {
+    text-align: left;
+  }
+  .sixth-page-parent {
+    margin-top: 1rem !important;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .left-content-sixthpage {
+    align-self: center;
+  }
+  .righ-content-course {
+    height: fit-content !important;
+    margin: 0px !important;
+  }
+  .left-content-course p {
+    text-align: left !important;
+  }
+  .left-content-course {
+    margin: 0 !important;
+  }
+  .button-withdiscount .course-price {
+    margin-left: 12rem !important;
+  }
+  .main-ellipse {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .row-ellipse {
+    max-width: 47.5rem !important;
+  }
+  .main-ellipse P {
+    max-width: 42.5rem !important;
+  }
+  .fixed-menu {
+    width: 98% !important;
+    padding: 2rem 3rem !important;
+  }
+
+  .fixed-menu a {
+    padding: 2.3% !important;
+  }
+  .second-Page .course-specs .specs-left p {
+    padding: 3.5rem 0rem 6.5rem 0rem !important;
+    text-align: center !important;
+  }
+  .second-Page .course-specs .specs-right p {
+    padding: 3.5rem 0rem 6.5rem 0rem !important;
+    text-align: center !important;
+  }
+  .second-Page img {
+    width: 38.5rem !important;
+  }
+}
+
+@media (max-width: 420px) {
+  html {
+    font-size: 35%;
+  }
+  .main-content-course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0px !important;
+  }
+
+  .main-content-course h4 {
+    text-align: left;
+  }
+
+  .sixth-page-parent {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-top: 1rem !important;
+  }
+  .left-content-sixthpage {
+    align-self: center;
+  }
+  .righ-content-course {
+    height: fit-content !important;
+  }
+  .button-withdiscount .course-price {
+    margin-left: 15rem !important;
+  }
+  .main-ellipse {
+    grid-template-columns: repeat(1, 1fr) !important;
+    width: 80% !important;
+  }
+  .row-ellipse {
+    max-width: 52.5rem !important;
+  }
+  .main-ellipse P {
+    max-width: 42.5rem !important;
+  }
+  /* .fixed-menu {
+    width: 79rem !important;
+    padding: 2rem 3rem !important;
+  }
+  .fixed-menu a{
+    padding: 2rem !important;
+  } */
+  .fixed-menu {
+    width: 89%rem !important;
+    padding: 2rem 3rem !important;
+  }
+  .fixed-menu a {
+    padding: 2.1% !important;
+  }
+  .second-Page .course-specs .specs-left p {
+    padding: 3.5rem 0rem 6.5rem 0rem !important;
+    text-align: center !important;
+  }
+  .second-Page .course-specs .specs-right p {
+    padding: 3.5rem 0rem 6.5rem 0rem !important;
+    text-align: center !important;
+  }
+  .second-Page img {
+    width: 35.5rem !important;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 35%;
+  }
+  .main-content-course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0px !important;
+  }
+  .main-content-course h4 {
+    text-align: left;
+  }
+  .sixth-page-parent {
+    margin-top: 1rem !important;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .left-content-sixthpage {
+    align-self: center;
+  }
+  .righ-content-course {
+    height: fit-content !important;
+    margin: 0px !important;
+  }
+  .left-content-course p {
+    text-align: left !important;
+  }
+  .left-content-course {
+    margin: 0 !important;
+  }
+  .button-withdiscount .course-price {
+    margin-left: 12rem !important;
+  }
+  .main-ellipse {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .row-ellipse {
+    max-width: 47.5rem !important;
+  }
+  .main-ellipse P {
+    max-width: 42.5rem !important;
+  }
+  .fixed-menu {
+    width: 98% !important;
+    padding: 2rem 3rem !important;
+  }
+
+  .fixed-menu a {
+    padding: 1.7% !important;
+  }
+
+  .second-Page .course-specs .specs-left p {
+    padding: 3.5rem 0rem 6.5rem 0rem !important;
+    text-align: center !important;
+  }
+  .second-Page .course-specs .specs-right p {
+    padding: 3.5rem 0rem 6.5rem 0rem !important;
+    text-align: center !important;
+  }
+  .second-Page img {
+    width: 38rem !important;
+  }
+}
+
+@media (max-width: 380px) {
+  html {
+    font-size: 30%;
+  }
+  .main-content-course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0px !important;
+  }
+  .main-content-course h4 {
+    text-align: left;
+  }
+  .sixth-page-parent {
+    margin-top: 1rem !important;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .left-content-sixthpage {
+    align-self: center;
+  }
+  .righ-content-course {
+    height: fit-content !important;
+    margin: 0px !important;
+  }
+  .left-content-course p {
+    text-align: left !important;
+  }
+  .left-content-course {
+    margin: 0 !important;
+  }
+  .button-withdiscount .course-price {
+    margin-left: 15rem !important;
+  }
+  .main-ellipse {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .fixed-menu {
+    width: 98% !important;
+    padding: 2rem 3rem !important;
+  }
+
+  .fixed-menu a {
+    padding: 2.3% !important;
+  }
+  .second-Page .course-specs .specs-left p {
+    padding: 3.5rem 0rem 6.5rem 0rem !important;
+    text-align: center !important;
+  }
+  .second-Page .course-specs .specs-right p {
+    padding: 3.5rem 0rem 6.5rem 0rem !important;
+    text-align: center !important;
+  }
+  .second-Page img {
+    width: 39.9rem !important;
+  }
+}
+@media (max-width: 330px) {
+  html {
+    font-size: 25%;
+  }
+  .main-content-course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0px !important;
+  }
+
+  .main-content-course h4 {
+    text-align: left;
+  }
+
+  .sixth-page-parent {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-top: 1rem !important;
+  }
+  .left-content-sixthpage {
+    align-self: center;
+  }
+  .righ-content-course {
+    height: fit-content !important;
+  }
+  .button-withdiscount .course-price {
+    margin-left: 15rem !important;
+  }
+  .main-ellipse {
+    grid-template-columns: repeat(1, 1fr) !important;
+    width: 80% !important;
+  }
+  .row-ellipse {
+    max-width: 52.5rem !important;
+  }
+  .main-ellipse P {
+    max-width: 42.5rem !important;
+  }
+  /* .fixed-menu {
+    width: 79rem !important;
+    padding: 2rem 3rem !important;
+  }
+  .fixed-menu a{
+    padding: 2rem !important;
+  } */
+  .fixed-menu {
+    width: 89%rem !important;
+    padding: 2rem 3rem !important;
+  }
+  .fixed-menu a {
+    padding: 2.8% !important;
+  }
+  .second-Page .course-specs .specs-left p {
+    padding: 3.5rem 0rem 6.5rem 0rem !important;
+    text-align: center !important;
+  }
+  .second-Page .course-specs .specs-right p {
+    padding: 3.5rem 0rem 6.5rem 0rem !important;
+    text-align: center !important;
+  }
+  .second-Page img {
+    width: 37.5rem !important;
+  }
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* removing default margins and paddings */
+
+/* fixed menu */
+
+.fixed-menu {
+  position: fixed;
+  bottom: 0.00000001rem;
+  display: flex;
+  left: 50%;
+  width: 90rem;
+  padding: 3rem 4rem;
+  transform: translate(-50%, -50%);
+  background: #1e1e21;
+  font-size: 1.6rem;
+  font-family: Monument Extended;
+  color: #ffffff;
+  border-radius: 1.6rem;
+  z-index: 100;
+}
+
+.fixed-menu a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0 3rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.topLogo {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* top bigbracket logo */
+.main-Page {
+  background-image: url("../images/first background.jpg");
+  text-align: center;
+  padding-top: 3rem;
+}
+/* adding background images */
+.main-header {
+  margin-top: 6.6rem;
+  letter-spacing: 0.04rem;
+}
+.main-Page h1 {
+  font-size: 5.4rem;
+  font-family: "Monument Extended";
+}
+.main-header-second {
+  padding-left: 10rem;
+}
+/* first header in the document */
+
+/* .view-course {
+  height: 6.7rem;
+  width: 19.8rem;
+  background: #1e1e21;
+  font-size: 1.6rem;
+  font-family: Monument Extended;
+  color: #ffffff;
+  border-radius: 0.8rem;
+  box-shadow: 0.6rem 0.6rem 0px rgba(0, 0, 0, 0.25);
+}
+.view-course a {
+  text-decoration: none;
+  color: white;
+} */
+/* viwe course button */
+.online-exam {
+  height: 48.5rem;
+  width: 48.5;
+}
+
+.second-Page img {
+  height: 48.1rem;
+  width: 39.9rem;
+}
+
+.head-discription-section {
+  max-width: 56.5rem;
+  max-height: 13.5rem;
+  margin: 0 auto;
+  font-size: 2.4rem;
+  line-height: 3.36rem;
+  font-family: Gilroy;
+  text-align: center;
+  letter-spacing: 0.02rem;
+}
+/* discription written in first page */
+
+/* .book-seat {
+  width: 23.4rem;
+  height: 6.7rem;
+  background: #ffffff;
+  border: 2px solid #1e1e21;
+  box-shadow: 0.6rem 0.6rem 0px rgba(0, 0, 0, 0.25);
+  border-radius: 0.8rem;
+  color: black;
+  margin: 2.4rem;
+  font-size: 1.6rem;
+  font-family: Monument Extended;
+}
+/* book your seat buttom */
+/* .book-seat a {
+  text-decoration: none;
+  color: #000000;
+} */
+
+.buttons-firstpage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3.2rem;
+  margin-bottom: 1.6rem;
+}
+
+.buttons-firstpage .view-course a {
+  font-family: Monument Extended;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.9rem;
+  line-height: 1.9rem;
+  text-align: center;
+  letter-spacing: 0.02rem;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 2.4rem;
+  gap: 1rem;
+  box-shadow: 0.6rem 0.6rem 0px rgb(0 0 0 / 25%);
+  border-radius: 0.8rem;
+}
+
+.buttons-firstpage .book-your-seat a {
+  font-family: Monument Extended;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.9rem;
+  line-height: 1.9rem;
+  text-align: center;
+  letter-spacing: 0.02rem;
+  color: #1e1e21;
+  text-decoration: none;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 2.1rem;
+  gap: 1rem;
+  box-shadow: 0.6rem 0.6rem 0px rgb(0 0 0 / 25%);
+  border-radius: 0.8rem;
+  margin-left: 2.4rem;
+  border: 0.25rem solid #1e1e21;
+}
+
+.discount-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Gilroy;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #4b4b4b;
+  letter-spacing: 0.02rem;
+}
+.discount-section img {
+  height: 2.4rem;
+  width: 2.4rem;
+  margin-right: 0.8rem;
+}
+/* discount paragraph */
+
+.second-Page {
+  background-image: url("../images/second background.jpg");
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+
+.second-Page .course-specs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.second-Page .course-specs .specs-left p {
+  font-family: "Monument Extended";
+  padding: 3.5rem 2rem 6.5rem 0;
+  font-size: 2.6rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.second-Page .course-specs .specs-right p {
+  font-family: "Monument Extended";
+  padding: 3.5rem 0rem 7.5rem 7rem;
+  font-weight: 600;
+  font-size: 2.6rem;
+  text-align: right;
+}
+
+/* second page backdround image */
+.second-Page h1 {
+  letter-spacing: 0.02rem;
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  text-align: center;
+  color: #1e1e21;
+  margin: 0 auto;
+  max-width: 80rem;
+  padding-top: 14rem;
+}
+/* second page Heading */
+
+.second-Page p {
+  letter-spacing: 0.03rem;
+  max-width: 72rem;
+  max-height: 13.5rem;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  line-height: 2.55rem;
+  font-family: Gilroy;
+  text-align: center;
+}
+/* second page paragraph */
+#bigbracket-link {
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.third-Page {
+  max-width: 81rem;
+  font-family: Gilroy;
+  font-size: 3.2rem;
+  line-height: 4.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin: 0 auto;
+  color: #1e1e21;
+  text-align: center;
+  padding-top: 11.5rem;
+  padding-bottom: 11.5rem;
+  letter-spacing: 0.02rem;
+}
+/* third page body */
+
+.third-Page .quote {
+  color: #727272;
+  font-size: 2.2rem;
+  line-height: 4.5rem;
+}
+/* Quote person name */
+
+.fourth-Page {
+  background-image: url("../images/third background.png");
+  background-size: cover;
+  text-align: center;
+}
+
+/* fouth page with background image */
+.fourth-Page h1 {
+  font-family: "Monument Extended";
+  font-size: 4rem;
+  line-height: 4.8rem;
+  font-weight: 400;
+  padding-top: 11.5rem;
+  letter-spacing: 0.02rem;
+}
+/* fouth page heading */
+
+.fourth-Page p {
+  max-width: 60rem;
+  max-height: 7.6rem;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  color: #1e1e21;
+  line-height: 2.55rem;
+  font-family: Gilroy;
+  text-align: center;
+  letter-spacing: 0.02rem;
+}
+/* fourth page paragraph */
+
+.main-content-course {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 14.5rem;
+  margin-top: 4.3rem;
+}
+/* whole div for left and right content */
+.left-content-course {
+  align-items: flex-start;
+  padding: 1.6rem;
+  margin-right: 8.5rem;
+  max-width: 61.4rem;
+  text-align: left;
+  max-height: fit-content;
+}
+/* fourth page left content */
+
+.left-content-course p {
+  font-family: "Gilroy-Regular";
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  color: #1e1e21;
+  text-align: left;
+  font-family: Gilroy;
+  max-height: fit-content;
+  letter-spacing: 0.02rem;
+}
+.left-content-course h4 {
+  font-size: 2.4rem;
+  line-height: 4.4rem;
+  font-family: Gilroy SemiBold;
+  letter-spacing: 0.02rem;
+}
+
+.righ-content-course {
+  align-items: flex-start;
+  padding: 2rem 2rem 3.2rem;
+  gap: 2.4rem;
+  width: 45.8rem;
+  text-align: left;
+
+  background: #ffffff;
+  border: 0.4rem solid #1e1e21;
+  box-shadow: 0.6rem 0.6rem 0px rgba(0, 0, 0, 0.25);
+  border-radius: 0.8rem;
+  margin-right: 1rem;
+}
+/* fourth page right content */
+
+.righ-content-course h4 {
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  font-family: Gilroy SemiBold;
+  color: #1e1e21;
+}
+.righ-content-course p {
+  font-family: "Gilroy-Regular";
+  font-size: 1.8rem;
+  line-height: 2.34rem;
+  color: #1e1e21;
+  text-align: left;
+  font-family: Gilroy;
+}
+
+.righ-content-course i {
+  color: #ffd152;
+  background: black;
+  border: 1px solid #000000;
+  box-shadow: 2px 1px 0px rgba(0, 0, 0, 0.9);
+  border-radius: 1.4rem;
+  margin-right: 0.3rem;
+}
+/* .righ-content-course button {
+  gap: 1rem;
+  background: #1e1e21;
+  border-radius: 0.8rem;
+  width: 19.5rem;
+  height: 6.7rem;
+
+  font-family: "Monument Extended";
+  font-weight: 400;
+  font-size: 1.6rem;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  text-align: center;
+} */
+.button-withdiscount .sign-up-now a {
+  font-family: Monument Extended;
+  font-style: normal;
+  /* font-weight: 400; */
+  font-size: 1.6rem;
+  line-height: 3.9rem;
+  text-align: center;
+  letter-spacing: 0.02rem;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1.5rem 2rem;
+  gap: 1rem;
+  border-radius: 0.8rem;
+}
+
+.button-withdiscount {
+  display: flex;
+  align-items: center;
+}
+
+.button-withdiscount .course-price {
+  font-weight: bold;
+  font-size: 2.4rem;
+  margin-left: 5rem;
+}
+
+.button-withdiscount .course-price .course-week {
+  font-weight: lighter;
+  font-size: 1.4rem;
+  font-weight: bold;
+  opacity: 0.5;
+}
+.signup-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+/* fifth page */
+.fifth-Page {
+  padding-top: 12.5rem;
+  margin-bottom: 12.5rem;
+}
+
+.fifth-Page h1 {
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  font-family: "Monument Extended";
+  text-align: center;
+  font-style: normal;
+  letter-spacing: 0.02rem;
+}
+.bodytext-fifthpage {
+  font-family: Gilroy-Medium;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #1e1e21;
+  max-width: 58.4rem;
+  margin: 0 auto;
+  letter-spacing: 0.02rem;
+}
+
+.main-ellipse {
+  width: 61%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 2rem;
+  margin-top: 4.3rem;
+}
+.main-ellipse img {
+  width: 11rem;
+  height: 12rem;
+}
+
+.row-ellipse {
+  display: flex;
+  flex-direction: column;
+  max-width: 45.5rem;
+  border-radius: 0.8rem;
+}
+
+/* .row-ellipse .sign-up-section {
+  margin: 2.3rem 0 3.3rem 4rem;
+  height: 6.7rem;
+  width: 26.8rem;
+  background: #1e1e21;
+  font-size: 1.6rem;
+  font-family: Monument Extended;
+  color: #ffffff;
+  border-radius: 0.8rem;
+} */
+
+/* .sign-up-section a {
+  text-decoration: none;
+  color: white; 
+  
+} */
+.fifthsection-button a {
+  font-family: Monument Extended;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.9rem;
+  line-height: 1.9rem;
+  text-align: center;
+  letter-spacing: 0.02rem;
+  color: #1e1e21;
+  text-decoration: none;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  border-radius: 0.8rem;
+  padding: 1.8rem 2.4rem;
+  margin: 2.3rem 0 3.3rem 4rem;
+  width: fit-content;
+  transition: 0.4s;
+}
+.fifthsection-button a:hover {
+  color: #ffffff;
+  background: #1e1e21;
+}
+/* .row-ellipse:hover {
+  box-shadow: 0.6rem 0.6rem 0px rgb(0 0 0 / 25%);
+  border: 0.4rem #4b4b4b solid;
+} */
+
+.row-ellipse .info-section {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin: 2.7rem auto;
+}
+
+.row-ellipse .info-section .user-title {
+  font-family: "Monument Extended";
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.row-ellipse .info-section .user-position {
+  font-family: "Gilroy-Medium";
+  font-size: 1.6rem;
+  width: 20.6rem;
+}
+
+.row-ellipse .info-section .user-image {
+  width: 15.2rem;
+  height: 12.3rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 1.8rem;
+}
+
+.row-ellipse .info-section .user-image img {
+  width: 100%;
+}
+
+.row-ellipse .desc-section {
+  width: 100%;
+  padding-left: 4rem;
+}
+
+.row1-ellipse {
+  background-image: url(../images/first\ background.jpg);
+  /* border: 0.4rem #4b4b4b solid;
+  box-shadow: 0.6rem 0.6rem 0px rgb(0 0 0 / 25%); */
+}
+
+.row2-ellipse {
+  background-image: url(../images/third\ background.png);
+}
+.row3-ellipse {
+  background-image: url(../images/second\ background.jpg);
+}
+.row4-ellipse {
+  background-image: url(../images/fourth-background.png);
+  background-size: cover;
+}
+
+.main-ellipse P {
+  max-width: 40.5rem;
+  font-family: "Gilroy-Medium";
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  /* or 140% */
+  padding-left: 2.6rem;
+  color: #1e1e21;
+}
+
+.sixth-Page {
+  background-image: url("../images/first background.jpg");
+  padding-top: 15.3rem;
+  background-size: cover;
+}
+.sixth-Page h1 {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  /* identical to box height */
+  color: #1e1e21;
+  text-align: center;
+}
+
+.sixth-page-parent {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 14.5rem;
+  margin-top: 10.5rem;
+}
+
+.left-content-sixthpage {
+  max-width: 65.2rem;
+  margin-left: 1rem;
+}
+/* .course-overview-1st {
+  background: #1e1e21;
+  border: 0.4rem solid #1e1e21;
+  box-shadow: 0.6rem 0.6rem 0px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 2rem;
+  gap: 1.6rem;
+} */
+/* .course-overview-1st p {
+  color: #ffffff;
+  font-family: "Gilroy-Medium";
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+} */
+/* .course-overview-1st h4 {
+  font-family: Gilroy SemiBold;
+  color: #ffffff;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  position: relative;
+} */
+
+/* .course-overview-1st h4::after {
+  content: "-";
+  position: absolute;
+  right: 0;
+} */
+
+.course-overview-other p{
+  color: black;
+  font-family: "Gilroy-Medium";
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  padding-top: 1.6rem;
+  letter-spacing: 0.02rem;
+}
+
+.course-overview-other {
+  background: #ffffff;
+  border: 0.4rem solid #1e1e21;
+  border-radius: 8px;
+  margin-top: 1.6rem;
+  width: 65.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+  position: relative;
+}
+
+.course-overview-other h4 {
+  font-family: Gilroy SemiBold;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  letter-spacing: 0.02rem;
+  /* identical to box height, or 140% */
+
+  color: #1e1e21;
+}
+
+.course-overview-other h4::after {
+  content: "+";
+  position: absolute;
+  right: 3%;
+}
+
+.righ-content-sixthpage img {
+  width: 40rem;
+  height: 40rem;
+}
+
+
+
+.seventh-Page {
+  background-image: url(../images/third\ background.png);
+  background-size: cover;
+  padding-top: 12.4rem;
+  padding-bottom: 15rem;
+}
+
+.seventh-Page h1 {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  text-align: center;
+}
+
+.seventh-Page .bodytext-seventh {
+  font-family: "Gilroy-Medium";
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  /* identical to box height, or 140% */
+  text-align: center;
+  color: #000000;
+  margin-bottom: 5.8rem;
+}
+
+.seventh-Page h4 {
+  font-family: Gilroy SemiBold;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  /* identical to box height, or 140% */
+  color: #1e1e21;
+  margin-top: 2.4rem;
+}
+
+.name,
+.phone,
+.email {
+  background: #ffffff;
+  border-radius: 0.8rem;
+  height: 5.2rem;
+  width: 48.6rem;
+}
+
+.seventh-Page form {
+  background-image: url(../images/form\ background.png);
+  width: 59.2rem;
+  border-radius: 0.8rem;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 1.6rem;
+  padding-bottom: 6.8rem;
+}
+
+.seventh-Page form div {
+  width: 48rem;
+  margin: 0 auto;
+}
+
+.seventh-Page form div h4 {
+  padding-bottom: 0.5rem;
+  text-align: left;
+}
+
+.signup-checkbox {
+  font-family: Gilroy;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  color: #1e1e21;
+  max-width: 44.6rem;
+  margin-left: 5.1rem;
+  margin-top: 2.5rem;
+}
+.seventh-Page button {
+  padding: 2.4rem;
+  gap: 1rem;
+  width: 48.6rem;
+  height: 6.7rem;
+  background: #1e1e21;
+  border-radius: 0.8rem;
+
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+  margin-top: 6rem;
+}
+
+.error {
+  border: 3px solid #c51244;
+}
+
+.error-animate {
+  animation: tilt-shaking 0.1s infinite;
+}
+
+@keyframes tilt-shaking {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  50% {
+    transform: rotate(0eg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
